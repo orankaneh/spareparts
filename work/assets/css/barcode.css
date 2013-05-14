@@ -1,0 +1,17 @@
+/* 
+    Document   : barcode-font
+    Created on : 05 Mei 11, 10:52:02
+    Author     : Dany M Pradana
+    Description: Purpose of the stylesheet follows
+	Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+@font-face{
+    font-family: 'barcode';
+    src:url('../fonts/free3of9-webfont.eot');
+    src:url('../fonts/free3of9-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/free3of9-webfont.woff') format('woff'), 
+    url('../fonts/free3of9-webfont.ttf') format('truetype'), 
+    url('../fonts/free3of9-webfont.svg#barcodesvg') format('svg');    
+}
+

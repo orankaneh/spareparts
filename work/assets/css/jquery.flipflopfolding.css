@@ -1,0 +1,56 @@
+/* 
+    Document   : jquery.flipflopfolding.css
+    Created on : Dec 20, 2010, 4:38:42 PM
+    Author     : Zuhdil Herry (zuhdil-at-gmail.com)
+    Description:
+        Default styles support for flipflopFolding jQuery plugin
+*/
+.flipflopfolding {padding-left: 3px}
+.flipflopfolding a {text-decoration: none; display: block; padding: 2px 0px 2px 2px; font-size: 10px;background: #f1f2f6}
+.flipflopfolding a:hover{ 
+    text-decoration: none; 
+    background: url(../images/bg-menu-hover.gif) repeat-x;
+    color: #ffffff;
+}
+.flipflopfolding a:before{ content: ''; }  
+.flipflopfolding li{ 
+    list-style-type: none;
+    padding: 2px 0px 0px 1px;
+}
+.flipflopfolding ul{ 
+    padding-left:1em;
+}
+.flipflopfolding .collapse:before{ 
+/*    content: url(../images/tree_open.gif);*/
+    position: relative;
+    top: 2px;
+    padding-right: 2px;
+} 
+.flipflopfolding .expand:before{ 
+/*    content: url(../images/tree_close.gif);*/
+    position: relative;
+    top: 2px;
+    padding-right: 2px;
+}
+
+.flipflopfolding .active{ 
+    color: #ffffff;
+    background: url(../images/bg-menu.gif) repeat-x;
+    height: 16px;
+    font-size: 10px;
+    font-weight: bold;
+}
+.nav-level-2 {
+    background: url(../js/ui-lightness/images/ui-bg_highlight-soft_75_ffe45c_1x100.png) repeat-x;
+    border: 1px solid silver;
+}
+
+#active-level-2{
+    background: #ff9933;
+    color: #ffffff;
+}
+
+#active-level-2:hover{
+    background: url(../images/bg-menu-hover.gif) repeat-x;
+    color: #ffffff;
+}

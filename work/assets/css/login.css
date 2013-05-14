@@ -1,0 +1,100 @@
+body {margin:0px 0 5px 0; font: 11px arial,tahoma,verdana lighter !important; background:#161616 url('../images/background.png')  no-repeat center ;
+background-attachment:fixed !important;
+overflow:hidden; Scrollbar: "no"; color: #666}
+div {text-align: left}
+label {font-size: 14px ;float: left; color: #424242;}
+td {font: 11px arial,tahoma !important}
+#content-user {background: #FFF url('../images/company/background-login.jpg') no-repeat bottom right; padding: 20px 110px 40px 110px; position: relative}
+#blueborder {padding: 10px; border: 1px solid #cccccc ; border-radius: 5px; -moz-border-radius: 5px;  -webkit-border-radius: 5px; width: 420px}
+.clear {clear: both}
+.alert {color: #ae0000; border: 1px solid #ae0000; background: #ffcecd; padding: 3px; margin:0px 0 5px 0;!important; text-align: center}
+.buttonstyle {font: 11px tahoma,arial; font-weight: bold ;background: #424242;padding: 3px 8px;color: #fff ;cursor: pointer; border: 1px solid #cccccc; float: left; margin: 0 2px 0 0}
+.buttonstyle:hover {background: #333333;}
+.inputstyle {clear: both; padding:  3px 6px 5px 6px; color: #424242; font: 16px "Comic Sans MS", cursive; border: none; border: 1px solid #cecece; float: left; height: 25px; margin: 0 5px 0 0; width: 100%;border-radius:5px;
+-moz-border-radius:5px;
+-webkit-border-radius:5px;
+-khtml-border-radius:5px;
+box-shadow:inset 0 7px 7px #CCC;
+background-color:#fff;
+height:32px;}
+.footer {color: #cccccc; margin: 10px 0; text-align: center; font: 12px Arial,Tahoma !important}
+.footer2 {color: #161615; margin: 130px 10px; text-align:right; font: 12px Arial,Tahoma !important}
+img
+{
+opacity:0.4;
+filter:alpha(opacity=40); /* For IE8 and earlier */
+}
+.box
+{
+	margin:160px 0 5px 0;
+ background-color: #ffffff;
+ -moz-border-radius: 15px;
+ -webkit-border-radius: 15px;
+ border-radius: 15px;
+ padding: 10px;
+ width:360px;
+ height: auto;
+ margin-left:10px;
+ position:relative;
+ clear:both;
+}
+
+.rectangle {
+	background: #424242;
+	height: 50px;
+	width: 415px;
+	position: relative;
+	left:-30px;
+	top: 30px;
+	float: left;
+	-moz-box-shadow: 0px 0px 4px rgba(0,0,0,0.55);
+  -khtml-box-shadow: 0px 0px 4px rgba(0,0,0,0.55);
+  -webkit-box-shadow: 0px 0px 4px rgba(0,0,0,0.55);
+	z-index: 100; /* the stack order: foreground */
+}
+
+.rectangle h2 {
+	margin: 0px 0 0 60px; background: url('../images/company/brand.png') no-repeat top; width: 500px; height: 70px
+}
+
+.triangle-l {
+	border-color: transparent #424242 transparent transparent;
+	border-style:solid;
+	border-width:20px;
+	height:0px;
+	width:0px;
+	position: relative;
+	left: -50px;
+	top: 10px;
+	z-index: -1; /* displayed under box */
+}
+
+.triangle-r {
+	border-color: transparent transparent transparent #424242;
+	border-style:solid;
+	border-width:20px;
+	height:0px;
+	width:0px;
+	position: relative;
+	left: 365px;
+	top: -30px;
+	z-index: -1; /* displayed under box */
+}
+
+.form{
+padding: 15px 25px 35px 25px;
+}
+
+.form ul{
+list-style: none;
+padding:0;
+margin:2px;
+}
+.form ul li{
+margin:0 0 9px 0;
+padding:0;
+}
+/* Make inputs go to their own line */
+.form input{
+display:block;
+}

@@ -1,0 +1,345 @@
+
+* {font-size: 11px}
+h1, h2, h3, h4, h5, h6 {margin: 0; padding: 0}
+a img {border: none;outline: none}
+a, a:visited {color: #2682BF}
+th a {color:#fff;text-decoration:none;font-size:9px}
+.hidden-obj {display: none}
+
+.tips {color: #ccc; font-style: italic; font-size: .9em}
+.nama_barang {width: 30%}
+
+
+.data-input {margin: 1em 0 1.2em 0; float: 5px 0}
+.data-input button,.data-input fieldset,.data-input input,.data-input select {margin: .3em 0}
+.data-input textarea {min-height: 60px}
+.data-input fieldset {border: 1px dotted #bbbbbb;clear: both;padding: .4em; width: 100%}
+.data-input fieldset fieldset legend {font-size: 1em}
+.data-input input[type=text],.data-input input[type=password],.data-input textarea,.data-input 
+.field-value, .input-text-global, .search-form .category, .search-form .input-text
+    {float: left; border: 1px solid #CCCCCC;min-width: 23em;padding:3px 2px;margin-right: 5px; font: 12px tahoma,arial lighter !important}
+.data-input input[type=submit],
+.data-input input[type=button] {min-width: 80px;}
+.data-input select{float: left;border: 1px inset #CCCCCC;min-width: 23.5em;padding:2px;margin-right: 5px;}
+.data-input .filter-predicate {min-width: 150px;width: 253px;}
+.data-input .filter-values {min-width: 150px;}
+.data-input .mini {min-width: 2em;}
+.data-input .mini-select {min-width: 10em;padding: 1px;margin-left: 5px;white-space: nowrap;}
+.data-input .mini-select2 {min-width: 22.5em;padding: 1px;margin-left: 10px;white-space: nowrap;}
+.data-input .page-row {min-width: 2em;display: block;}
+.data-input label,.data-input .field-title {clear: both;display: block;float: left;line-height: 1.1em; padding: .7em .0em 0;width: 12em;white-space: nowrap;}
+.data-input .blocked {display: block;padding-right: 2.4em;}
+.data-input span {float: left;font-size: 11px; padding-top: 6px;}
+.data-input .field-group {border: none;padding: 0;}
+.data-input .field-group input {min-width: 1em;}
+.data-input .field-group legend {clear: both;display: block;float: left;font-weight: normal;padding: .35em .5em .1em;width: 12em;font-size:11px;}
+.data-input .field-group .tanggal {font-weight: normal;width: 8.7em;margin-right: 1em;}
+.data-input .field-group .tgl {font-weight: normal; width: 7.5em; margin-right: 1em;}
+.data-input .field-group .small-input {font-weight: normal; width: 3em; margin-right: 5px;}
+.data-input .field-group .span-normal{font-size:12px;padding-top: 5px;margin-right: 5px}
+.data-input .field-group .datepicker-input {font-weight: normal; width: 7.5em; margin-right: 1em;}
+.data-input .field-group .umur {font-weight: normal; width: 4.7em;}
+.data-input .info {color: #666;float: left;font-size: .8em;padding: 1em .2em 0;}
+.data-input .inline-title {clear: none;width: auto;}
+.data-input .inline-value {float: left;}
+.data-input .field-option {clear: none; display: inline; float: none; margin-right: 1em;}
+.data-input .input-process {border: none; clear: both; float: left; padding-left: 13em; border: none; left: 100px;}
+.data-input .field-value {line-height: 1.1em; padding: .7em .5em 0 0;}
+
+/* --addButton-- */
+.data-input .add, .addButton {background: #ccc; padding-left:17px; font: 1.1em tahoma,arial,verdana !important; cursor: pointer; color: #000;}
+.addButton {float: left; margin: 10px 0}
+.data-input .sort-by {display: block; padding: 2px 2px 2px 17px; background: #f4f4f4 url(../images/icons/add.png) no-repeat left}
+
+.monthly-selector input {float:left; min-width: 1em}
+.monthly-selector .month {min-width: 1em; margin:3px}
+.monthly-selector input.year {min-width: 4em; margin:3px}
+.monthly-selector .prev-year-button {background:url(../images/prev-year.png) no-repeat top; border:none; height: 20px; float:left}
+.monthly-selector .prev-month-button {background:url(../images/prev-month.png) no-repeat top; height: 20px; border:none; float:left}
+.monthly-selector .next-year-button {background:url(../images/next-year.png) no-repeat top; height: 20px; border:none; float:left}
+.monthly-selector .next-month-button {background:url(../images/next-month.png) no-repeat top; height: 20px; border:none; float:left}
+.monthly-selector .none {float:left; white-space:nowrap; padding:3px}
+
+/* --Pendaftaran-- */
+.pendaftaran {width: 100%;position: relative}
+.pendaftaran .primary,
+.pendaftaran .secondary {width: 45%;display: block}
+.pendaftaran .primary {float: left}
+.pendaftaran .secondary {float: left}
+.pendaftaran .pembayaran select {min-width: 1em}
+.pendaftaran .tanggal {width: 9em}
+.pendaftaran .umur {width: 3em}
+.umur2 {width: 2em}
+
+/* --Modul Datalist-- */
+.data-list { margin: 0.3em 0 0.5em; overflow: visible;padding: 1px; padding: 10px 0}
+.data-list .title {color:#003399}
+.data-list .active {background:url(../images/icons/aktive.ico) no-repeat center;background:12px;padding:6px;}
+.data-list .add, .data-list .varianButton {font:11px tahoma, arial,verdana; border: 1px solid #ccc; padding:5px 8px 5px 24px; margin: 13px 5px 13px 0;
+    text-decoration:none; color: #666; position: relative; cursor: pointer}
+.data-list .add:hover {background: #ECF5E9}
+.data-list .aksi {text-align: center; width: 0.5em; white-space: nowrap}
+.data-list .aksi a, .data-list .aksi a:visited {padding: 1px 1px 1px 19px; margin-left: .4em; font-size: .9em; text-indent: 1em; position: relative}
+.data-list .aksi a small {position: absolute; top: 18px; left: -6px; padding: 7px 10px 3px 0; font-size: .8em; opacity: 0.8}
+.data-list .aksi a:hover small {visibility: visible}
+.data-list .aksi .edit {background: url('../images/icons/pencil.png') no-repeat 0 50%}
+.data-list .aksi .add {background: url('../images/icons/add.png') no-repeat 0 50%}
+.data-list .aksi .delete {background: url('../images/icons/delete.png') no-repeat 0 50%; cursor: pointer}
+.data-list .aksi .detail {background: url('../images/icons/detail-icon.png') no-repeat 0 50%}
+.data-list .aksi .reset {background: url('../images/icons/reset.png') no-repeat 0 50%}
+.data-list .bolder {font-size: 12px;text-transform: capitalize}
+.data-list .aksi .aktif {background:url(../images/icons/accept.png) no-repeat 0% 50%}
+.data-list .aksi .nonaktif {background:url(../images/icons/cross.png) no-repeat 0 50%}
+.data-list .even {background: #fff}
+.data-list .even:hover {background: #d8fabd}
+.data-list .group-history {background-color: #cccccc; display: block; width: 70%; padding:2px 10px 2px 10px;
+    cursor: pointer; color: #ffffff; margin-bottom: 4px}
+.data-list .group-history:hover {background-color: #aaaaaa}
+.data-list .no-active {background:url(../images/icons/non.ico) no-repeat center;background:12px;padding:6px}
+.data-list .no-wrap {white-space:nowrap}
+.data-list .odd {background: #ecf2f6;}
+.data-list .odd:hover{background: #d8fabd}
+
+.autoadd-delete {background: url('../images/icons/delete.png') no-repeat; background-position: 0 5px; cursor: pointer; width: 20px; height: 20px; float: left; text-indent: -999px}
+
+/******************************************************/
+.acInput {
+    width: 200px;
+}
+
+.acResults {
+    padding: 0px;
+    border: 1px solid WindowFrame;
+    background-color: Window;
+    overflow: hidden;
+}
+
+.acResults ul {
+    width: 100%;
+    list-style-position: outside;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.acResults li {
+    margin: 0px;
+    padding: 2px 5px 2px 2px;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    font: menu;
+    font-size: 12px;
+    overflow: hidden;
+}
+
+.acLoading {
+    background : url('indicator.gif') right center no-repeat;
+}
+
+.acSelect {
+    background-color: #F4F4F4;
+    color: HighlightText;
+}
+
+
+.head-laporan{
+    text-align: center;
+    background: whitesmoke;
+    margin: auto;
+    width: 600px;
+    border:1px solid #CCCCCC;
+}
+.contain {
+    margin:auto;
+    margin-top:3px;
+    border:1px solid #CCCCCC;
+    background-color:#FFFFFF;
+    width: 600px;
+    line-height: 20px;
+}
+.contain2 {
+    margin:auto;
+    margin-top:3px;
+    border-top:1px solid #CCCCCC;
+    border-left:1px solid #CCCCCC;
+    background-color:#FFFFFF;
+    width: 600px;
+}
+.contain2 td{
+    border-right:1px solid #CCCCCC;
+    border-bottom:1px solid #CCCCCC;
+    padding: 5px;
+}
+
+
+
+/* Jquery Tab Content */
+ul.tabs {
+    margin: 0;
+    padding: 0;
+    float: left;
+    list-style: none;
+    height: 22px; /*--Set height of tabs--*/
+    border-bottom: 1px solid #999;
+    border-left: 1px solid #999;
+    width: 100%;
+}
+ul.tabs li {
+    float: left;
+    margin: 0;
+    padding: 0;
+    height: 21px; /*--Subtract 1px from the height of the unordered list--*/
+    line-height: 21px; /*--Vertically aligns the text within the tab--*/
+    border: 1px solid #999;
+    border-left: none;
+    margin-bottom: -1px; /*--Pull the list item down 1px--*/
+    overflow: hidden;
+    position: relative;
+    background: #e0e0e0;
+}
+ul.tabs li a {
+    text-decoration: none;
+    color: #000;
+    display: block;
+    font-size: 1em;
+    padding: 0 20px;
+    border: 1px solid #fff; /*--Gives the bevel look with a 1px white border inside the list item--*/
+    outline: none;
+}
+ul.tabs li a:hover {
+    background: #ccc;
+}
+html ul.tabs li.active, html ul.tabs li.active a:hover  {background: #fff; border-bottom: 1px solid #fff; /*--Makes the active tab look like it's connected with its content--*/
+}
+.tab_container {
+    border: 1px solid #999;
+    border-top: none;
+    overflow: hidden;
+    clear: both;
+    float: left; width: 100%;
+    background: #fff;
+}
+.tab_content {
+    padding: 20px;
+    font-size: 1.2em;
+}
+.process{
+    position: relative;
+    left: 270px;
+    clear: left;
+    padding-top: 30px;
+}
+.del{
+    cursor:pointer;
+    color:blue;
+    border: 1px solid #c0cdee;
+    background: #dfe5f7;
+    font-size: 11px;
+    -moz-border-radius: 5px;
+}
+.del:hover{
+    color: #CCCCCC;
+    -moz-border-radius: 5px;
+}
+.button {
+    background-color: #cccccc;
+    display: inline-block;
+    padding:2px 10px 2px 10px;
+    cursor: pointer;
+    color: #ffffff;
+    margin-bottom: 10px;
+    text-decoration:none;
+    -moz-border-radius:3px;
+    -moz-border-webrootkit:3px;
+    border:1px solid #ccc;
+}
+.button:hover {
+    background-color: #aaaaaa;
+    color: #ffffff;
+    border:1px outset #ccc;
+}
+.cetak {
+    background: url(../images/print.png) no-repeat left;
+    padding-left: 17px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.cetak:hover{
+    color: #3862a9;
+    font-weight: bold;
+}
+.cetak2 {
+    margin-left: 5px;
+    color:#2682BF;
+    background: url(../images/print.png) no-repeat left;
+    padding-left: 18px;
+    font-size: 11px;
+    cursor: pointer;
+}
+
+.discharge {
+  margin-left: 25px;
+    background: url(../images/discharge.png) no-repeat left;
+    padding-left: 18px;
+    font-size: 19px;
+    cursor: pointer;
+	 font-weight: bold;
+}
+
+.aksi .cetakSurat{
+    background: url(../images/print.png) no-repeat left;
+    padding-left: 17px;
+    cursor: pointer;
+    color: blue;
+    margin-left: 1px;
+    text-decoration: underline;    
+}
+.excel { background: url(../images/excel_ico.gif) no-repeat left; padding-left: 17px; font-weight: bold; cursor: pointer; margin-left: 5px; color: black; text-decoration: none;}
+.excel:hover{color: #3862a9; font-weight: bold}
+.parent-id {background-color: #f4f4f4;cursor: pointer}
+.display-blok{display: block; width: 100%;float: right}
+.account{background: url('../images/person2_f2.png') no-repeat left; min-height: 50px; padding: 2px 2px 2px 40px; border: 1px dotted silver; margin: 3px 2px 0px 3px; color: #597dc1;font-size: 11px}
+
+.search-form {float: right}
+.search-form .search-button {background: #919191 url('../images/icons/x16.png') no-repeat -72px -18px; border: 1px solid #626060; padding: 4px 10px 3px 10px; margin: 0 0 0 5px; cursor: pointer}
+.search-form .search-input {border: 1px solid #ccc; font: 12px tahoma,arial; padding: 4px 3px}
+
+.judul, .judul a {color:#333; text-transform: uppercase; border-bottom:1px dotted #F4F4F4; padding: 10px 0; font-family:Arial,Tahoma !important; font-size: 17px;font-weight:bold;}
+.judul a:hover {color:#aaa}
+#perpage {margin: 8px 5px 8px 0px;}
+
+.noblock {padding:2px 5px 2px 5px; background-color:#777; border:1px solid #ccc; text-decoration: none; color: #fff; -moz-border-radius: 5px; -webkit-border-radius: 5px}
+.block {padding:2px 5px 2px 5px; background-color:#eee; border:1px solid #ccc; color:#444; -moz-border-radius: 5px; -webkit-border-radius: 5px; cursor: pointer}
+.ok {background:url(../images/icons/alert.png) no-repeat left; color:#0000FF; padding-left:17px; padding-top:2px; height:17px; margin-left:0px}
+.page-next {background:url(../images/next.png) no-repeat; padding:4px 25px 6px 10px; cursor:pointer;font-size:10px;}
+.page-prev {background:url(../images/prev.png) no-repeat; padding:4px 14px 6px 25px; cursor:pointer;font-size:10px;}
+.sorting {color:#fff; text-decoration: none; background:url(../images/sort.gif) no-repeat 10px; padding-left:20px;}
+.sorting:hover {color:#FFF;text-decoration:underline;}
+
+.act-suddenly{border: 1px solid #ccc; padding: 3px 4px 4px 22px; float: left; position: relative; margin-top: 4px; color: #ccc; cursor: pointer}
+.act-suddenly:hover {background: #FFFDED}
+
+
+.icon  {background-image: url('../images/icons/x16.png'); height: 16px; width: 16px;position: absolute; top: 4px; left: 4px}
+.button-add {background-position: -72px 0}
+.button-top {background-position: -135px 0}
+.button-sud-add {background-position: -73px -1px}
+.button-excel {background-position: -92px 0}
+
+
+/* --Form & Notifikasi-- */
+.notif, #confirm-form { background: #FFFFCC; border: 1px solid #ECDF3D; margin: 10px 0px; clear: both;float: left; padding: 8px 15px}
+.confirmbox {background: #FFFFCC; border: 1px solid #ECDF3D; margin: 10px 0px; clear: both;float: left; padding: 12px 25px;-moz-border-radius: 0 0 5px 5px;-web-border-radius: 0 0 5px 5px; position: fixed; z-index: 999; top: 18px; left: 0}
+.alert {border: 1px solid #B05B5B; background: #E6B8B8; color: #B32222; margin: 10px 0px; clear: both;float: left; padding: 8px 15px}
+#confirm-form input {font: 11px tahoma,arial; font-weight: bold;background: #6f9ff1;padding: 3px 8px;color: #fff ;cursor: pointer; border: 1px solid #006699; float: left; margin: 10px 2px 0 0; -moz-border-radius: 2px; -webkit-border-radius: 2px}
+
+
+/*css datetimepicker*/
+.ui-timepicker-div .ui-widget-header{ margin-bottom: 8px; }
+.ui-timepicker-div dl{ text-align: left; }
+.ui-timepicker-div dl dt{ height: 25px; }
+.ui-timepicker-div dl dd{ margin: -25px 10px 10px 65px; }
+.ui-timepicker-div td { font-size: 90%; }
+
+.tabelflexibel {width: 100%; overflow: auto}

@@ -1,0 +1,11 @@
+/* 
+    Document   : jquery.partsselector.css
+    Created on : Dec 16, 2010, 5:56:26 PM
+    Author     : Zuhdil Herry (zuhdil-at-gmail.com)
+    Description:
+        Default styles support for partsSelector jQuery plugin
+*/
+.parts-selector { float:left; }
+.parts-selector .controls { clear:none;float:left;padding:0 .5em; }
+.parts-selector select { clear:none;float:left; }
+.parts-selector input { display:block;margin:0;padding:0 .4em; }
