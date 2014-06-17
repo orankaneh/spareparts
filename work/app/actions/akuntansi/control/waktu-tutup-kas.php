@@ -1,1 +1,0 @@
-<?php	if(isset($_POST["save"])){		$waktu = $_POST["waktu"];		$sql_cek = mysql_query("select tutup_kas from setting");		if(mysql_num_rows($sql_cek)>0){			mysql_query("update setting set tutup_kas = '$waktu' ");		}else{			mysql_query("insert setting set tutup_kas = '$waktu' ");		}		header("location: ".app_base_url('akuntansi/waktu-tutup-kas')."?msg=1");		exit();	}
